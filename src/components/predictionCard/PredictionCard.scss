@@ -1,0 +1,115 @@
+.card-width{
+   min-width: 25vw;
+   max-width: 25vw;
+}
+
+.card-border{
+  border: 1px solid #32a3dc;
+}
+
+.poke-gif{
+  height:130px;
+  padding-left: auto;
+}
+
+.mini-gif{
+  height:30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.city-data{
+  p{
+    margin-bottom: -5px !important;
+  }
+}
+
+.datacolumn{
+  padding-top: -20px !important;
+  min-width: 25%;
+}
+
+.temp-icon{
+  font-size: 22px;
+  color: #193442;
+}
+
+.colorfondo{
+  // background-color:  #133c50;
+}
+
+.mainPokemon{
+  width:350px;
+  height: 130px;
+  border:1px solid black;
+  // margin-right: 40px;
+  border-radius: 150px 0% 0% 150px;
+  transition: width 0.5s ease, height 0.5s ease;
+}
+
+.mainPokemon:hover{
+  width: 360px;
+  height: 140px;
+  -webkit-box-shadow: 5px 5px 15px 5px #2b2a2a; 
+  box-shadow: 5px 5px 15px 5px #2b2a2a;
+
+}
+
+
+.secondaryPokemon{
+  position:relative;
+  width:350px;
+  height: 130px;
+  border:1px solid black;
+  border-top-left-radius: 35px;
+  transition: width 0.5s ease, height 0.5s ease;
+}
+.secondaryPokemon:hover{
+  width: 360px;
+  height: 140px;
+  -webkit-box-shadow: 5px 5px 15px 5px #2b2a2a; 
+  box-shadow: 5px 5px 15px 5px #2b2a2a;
+
+}
+
+.pokemon-background {
+  background-color: #5a9ecc;
+}
+
+.selected{
+  background-color: #208df3;
+}
+
+//-------------------- MEDIA QUERIES -----------
+
+@media (max-width:1300px){
+  .card-width{
+    min-width: 50vw;
+    max-width: 50vw;
+ }
+}
+
+@media (max-width:700px){
+  .card-width{
+    min-width: 90vw;
+    max-width: 90vw;
+ }
+  .mainPokemon{
+    width: 100vw;
+  }
+  .mainPokemon:hover{
+    width: 100vw;
+    -webkit-box-shadow: 5px 5px 15px 5px #2b2a2a; 
+    box-shadow: 5px 5px 15px 5px #2b2a2a;
+  }
+  .secondaryPokemon{
+    width: 100vw;
+  border-radius: 150px 0% 0% 150px;
+
+  }
+  .secondaryPokemon:hover{
+    width: 100vw;
+    -webkit-box-shadow: 5px 5px 15px 5px #2b2a2a; 
+    box-shadow: 5px 5px 15px 5px #2b2a2a;
+  }
+}
